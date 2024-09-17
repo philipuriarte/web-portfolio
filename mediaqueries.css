@@ -22,7 +22,7 @@
         display: flex;
     }
 
-    #experience, .experience-details-container {
+    #skills, .skills-details-container {
         margin-top: 2rem;
     }
 
@@ -84,7 +84,7 @@
         font-size: 1rem;
     }
 
-    .experience-sub-title {
+    .skills-sub-title {
         font-size: 1.25rem;
     }
 
