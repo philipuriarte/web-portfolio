@@ -353,7 +353,63 @@ article .icon {
     cursor: default;
 }
 
-/* PROJECTS SECTION */
+/* EXPERIENCE SECTION */
+
+#experience {
+    position: relative;
+    height: fit-content;
+    margin-bottom: 5rem;
+}
+
+.experience-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.experience-list {
+    list-style: none;
+    padding: 0;    
+    margin-top: 2rem;
+}
+
+.experience-item {
+    background: white;
+    border-radius: 2rem;
+    padding: 2rem;
+    border: rgb(163, 163, 163) 0.1rem solid;
+    margin-top: 1rem;
+}
+
+.experience-title {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.experience-item p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.experience-bullets {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+    color: #333;
+}
+
+.experience-bullets li {
+    margin-bottom: 0.5rem;
+    text-align: justify;
+}
+
+.experience-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
 
 /* PROJECTS SECTION */
 
