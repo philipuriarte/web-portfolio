@@ -76,6 +76,10 @@
         flex-wrap: wrap;
     }
 
+    .about-containers {        
+        display: grid;
+    }
+
     .contact-info-container {
         margin: 0;
     }
