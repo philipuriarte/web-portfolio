@@ -23,6 +23,10 @@ p {
     text-align: justify;
 }
 
+.project-text {
+    margin: 2rem;
+}
+
 /* TRANSITION */
 
 a, .btn {
@@ -152,7 +156,7 @@ section {
     padding-top: 4vh;
     height: 96vh;
     margin: 0 10rem;
-    box-sizing: border-box;
+    box-sizing: content-box;
     min-height: fit-content;
 }
 
@@ -290,7 +294,7 @@ section {
 .arrow {
     position: absolute;
     right: -5rem;
-    bottom: 2.5rem;
+    bottom: 1rem;
 }
 
 .details-container {
@@ -426,6 +430,12 @@ article .icon {
     border-radius: 2rem;
     width: 90%;
     height: 90%;
+}
+
+.recyclemate-img {    
+    border-radius: 2rem;
+    width: 80%;
+    height: 80%;
 }
 
 .project-title {
